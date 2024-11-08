@@ -1,0 +1,24 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  labels:
+    app: busybox888
+  name: flask
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: busybox888
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        app: busybox888
+    spec:
+      containers:
+      - image: championsleague12/flask-test:v2
+        name: flask
+        resources: {}
+status: {}
