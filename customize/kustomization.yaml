@@ -1,0 +1,4 @@
+resources:
+ - ../busybox/deploy-busy.yaml 
+   #patches:
+   # - path: increase_replicas.yaml
