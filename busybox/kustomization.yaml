@@ -1,0 +1,4 @@
+resources:
+ - https://github.com/Alex77728777/argo-cd.git/busybox?ref=master
+   #patches:
+   # - path: increase_replicas.yaml
